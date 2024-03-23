@@ -8,7 +8,7 @@ import { Checkbox } from "@/components/ui/checkbox"
 import { labels, priorities, statuses } from "@/app/(dashboard)/table/data/data"
 import { DataTableColumnHeader } from "./data-table-column-header"
 import { DataTableRowActions } from "./data-table-row-actions"
-import {TableNilai} from "@/app/(dashboard)/(table)/B-Daftar-Nilai/Daftar-Nilai/data/schema";
+import { TableNilai } from "@/app/(dashboard)/(table)/B/Daftar-Nilai/data/schema";
 import {nilaiToHuruf} from "@/components/table/B-Daftar-Nilai/NilaiToHuruf";
 
 export const columns: ColumnDef<TableNilai>[] = [
